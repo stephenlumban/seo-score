@@ -1,0 +1,19 @@
+{
+    "name": "seo-audit",
+    "version": "1.0.0",
+    "description": "A Node.js + Express API service that runs a Google Lighthouse audit and combines it with live keyword and index checks via SerpApi. Returns SEO, Performance, keyword rank, and index coverage scores in a single JSON response.",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": ["seo", "express", "serpapi", "audit"],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.6.7",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2"
+    }
+  }
